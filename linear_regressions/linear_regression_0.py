@@ -5,7 +5,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-__author__ = 'yasaka'
 
 # 这里相当于是随机X维度X1，rand是随机均匀分布
 X = 2 * np.random.rand(100, 1)
@@ -30,6 +29,8 @@ plt.plot(X_new, y_predict, 'r-')
 plt.plot(X, y, 'b.')
 plt.axis([0, 2, 0, 15])
 plt.show()
+
+print("linear regression")
 
 
 
